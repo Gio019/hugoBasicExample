@@ -1,4 +1,4 @@
-# hugoBasicExample
+# My first AI directory (hugo)
 
 This repository is intentionally empty.
 
