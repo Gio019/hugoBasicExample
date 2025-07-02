@@ -1,0 +1,15 @@
+name: Test Build
+
+on:
+  push:
+    branches: [ master ]  # or "main" if your repo uses that
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Say Hello
+        run: echo "✅ GitHub Actions is working!"
